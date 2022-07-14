@@ -7,12 +7,9 @@ import random
 
 def ask_user(number:int):
     user_guess = ""
-    try:
-        user_guess = input("Guess the number")
-        user_guess = int(user_guess)
-    except Exception:
-        print(f"{user_guess} is not a number.  Try Again")
-        return False
+    user_guess = input("Guess the number")
+    user_guess = int(user_guess)
+    
     if number == user_guess:
         return True
     else:
