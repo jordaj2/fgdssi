@@ -15,7 +15,9 @@ def ask_user(number: int):
         if int_user_guess > number:
             print("You are way to high!! Guess a lower number")
         if int_user_guess < number:
-            if (int_user_guess / number * 100) > 75:
+            if (int_user_guess / number * 100) > 90:
+                print("You are super hot.\n")
+            if (int_user_guess / number * 100) > 75 and (int_user_guess / number * 100) < 90:
                 print("You are getting hot.\n")
             if (int_user_guess / number) * 100 > 50 and (int_user_guess / number) * 100 < 75:
                 print("You are warm.\n")
