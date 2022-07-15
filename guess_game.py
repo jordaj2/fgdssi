@@ -6,7 +6,7 @@ import random
 
 
 def ask_user(number: int):
-    user_guess = input("Guess the number")
+    user_guess = input("Guess the number: ")
     int_user_guess = int(user_guess)
 
     if number == int_user_guess:
