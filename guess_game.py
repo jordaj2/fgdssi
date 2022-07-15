@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 # Have the computer generate a random #
 # Have the user enter a number
 # if the number is correct end the program and congratulate the user
@@ -38,8 +41,10 @@ def guess_game(num):
         print(f"Error {e}")
 
 
+
 # Generate a random number between 1 and 1000
-random_number = random.randint(1, 1000)
+random_number = random.randint(1, 1000000)
 
 # Start the game
 guess_game(random_number)
+
