@@ -13,7 +13,7 @@ def ask_user(number: int):
         return True
     else:
         if int_user_guess > number:
-            print("You are way to high!! Guess a lower number")
+            print("You are too high!! Guess a lower number")
         if int_user_guess < number:
             if (int_user_guess / number * 100) >= 90:
                 print("You are super hot.\n")
